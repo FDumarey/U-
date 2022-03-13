@@ -1,0 +1,6 @@
+LAYOUT(GuiWebCrawlerLayout, 1000, 800)
+	ITEM(Upp::ArrayCtrl, work, LeftPosZ(0, 500).TopPosZ(0, 800))
+	ITEM(Upp::ArrayCtrl, finished, LeftPosZ(500, 500).TopPosZ(0, 500))
+	ITEM(Upp::ArrayCtrl, path, LeftPosZ(500, 500).TopPosZ(500, 300))
+END_LAYOUT
+

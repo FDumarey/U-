@@ -1,0 +1,12 @@
+uses
+	CtrlLib,
+	Core/SSL;
+
+file
+	GuiWebCrawler.h,
+	main.cpp,
+	GuiWebCrawler.lay;
+
+mainconfig
+	"" = "GUI";
+

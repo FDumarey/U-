@@ -1,0 +1,11 @@
+description "First program ever in u++ ;-)\377";
+
+uses
+	plugin/zip;
+
+file
+	main.cpp;
+
+mainconfig
+	"" = "";
+

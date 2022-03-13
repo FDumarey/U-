@@ -1,0 +1,8 @@
+LAYOUT(SimpleDemoLayout, 344, 392)
+	ITEM(Upp::StaticText, txtTitle, SetText(t_("Shopping List")).SetAlign(ALIGN_CENTER).SetFont(StdFontZ(20)).LeftPosZ(0, 344).TopPosZ(0, 40))
+	ITEM(Upp::Label, lblItem, SetLabel(t_("&Item:")).LeftPosZ(16, 40).TopPosZ(56, 19))
+	ITEM(Upp::EditString, strItem, MaxChars(20).LeftPosZ(56, 196).TopPosZ(56, 19))
+	ITEM(Upp::Button, btnAdd, SetLabel(t_("&Add")).LeftPosZ(268, 56).TopPosZ(56, 20))
+	ITEM(Upp::ArrayCtrl, arrList, LeftPosZ(16, 308).TopPosZ(88, 288))
+END_LAYOUT
+

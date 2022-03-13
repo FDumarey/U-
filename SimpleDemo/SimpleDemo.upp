@@ -1,0 +1,11 @@
+uses
+	CtrlLib;
+
+file
+	SimpleDemo.h,
+	main.cpp,
+	SimpleDemo.lay;
+
+mainconfig
+	"" = "GUI";
+
